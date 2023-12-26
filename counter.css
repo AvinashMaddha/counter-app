@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: linear-gradient(to right,#4ff7e1,#05fa8c);
+    
+}
+.container{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 15px 10px #888;
+    text-align: center;
+    
+}
+.increment-btn{
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #fa7705;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.save-btn{
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #05fa53;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+}
+h1{
+    font-size: 35px;
+    font-family: "Roboto";
+    letter-spacing: 2px;
+}
+h2{
+    font-size: 35px;
+    font-family: "Roboto";
+    letter-spacing: 2px; 
+}
+p{
+    font-size: 15px;
+    font-family: "Roboto"; 
+}
